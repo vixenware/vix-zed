@@ -1,0 +1,12 @@
+id = "vix"
+name = "Vix"
+version = "0.3.0"
+schema_version = 1
+description = "Vix language support (the vixen build system's language)."
+repository = "https://github.com/vixenware/vix-zed"
+authors = ["Amos Wenger <amos@bearcove.eu>"]
+languages = ["languages/vix"]
+
+[grammars.vix]
+repository = "https://github.com/vixenware/vix-treesitter"
+rev = "cdaf9eade0076fb81c506f05415eb6aa272b0919"
